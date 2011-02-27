@@ -1,4 +1,4 @@
-﻿== Thủ Thuật Tạo Nhánh ==
+== Thủ Thuật Tạo Nhánh ==
 
 Tạo Nhánh và Trộn là các đặc tính sát thủ của Git.
 
@@ -41,7 +41,7 @@ Chúng ta đã tạo ra kho chứa Git mà nó theo dõi một tệp tin văn b�
 
 Bạn có thể hoán chuyển giữa hai phiên bản của tệp tin tùy thích, và commit từng cái trong số chúng một cách độc lập.
 
-=== Dirty Work ===
+=== Bản Nháp ===
 
 [[branch]]
 Bạn nói mình đang làm việc với một số đặc tính kỹ thuật, và vì lý do nào đó, bạn muốn quay trở lại bản cách đây ba bản và tạm thời đặt vài dòng lệnh
