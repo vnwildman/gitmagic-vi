@@ -15,7 +15,7 @@ trong thư mục hiện hành chứa các mã nguồn hay văn bản mà bạn m
 
 Bây giờ nếu như các sửa đổi vừa xong của bạn không như mong đợi, hãy phục hồi lại bản cũ:
 
- $ git reset --hard # Đặt lại toàn bộ dữ liệu như lần commit cuối
+ $ git reset --hard # Đặt lại trạng thái và dữ liệu như lần commit cuối
 
 Sau đó sửa nội dung cho đúng ý bạn rồi ghi lại thành một trạng thái mới:
 
@@ -38,7 +38,7 @@ Git xóa bỏ những tệp tin nếu như bạn chưa làm.
 
  $ git mv bug.c feature.c
 
-===  Chức Năng Undo/Redo  ===
+=== Chức Năng Undo/Redo ===
 
 Đôi khi bạn chỉ muốn quay trở lại và bỏ đi những thay đổi trong quá khứ tại một thời điểm nào đó bởi vì chúng tất cả đã sai. Thì lệnh:
 
@@ -118,7 +118,7 @@ commit mới, bạn có thể xác nhận lại điều này bằng lệnh *git 
 Một số dự án yêu cầu có một http://en.wikipedia.org/wiki/Changelog[changelog].
 Tạo một cái bằng cách gõ:
 
- $ git log > ChangeLog
+ $ git log > ThayĐổi
 
 === Tải về các Tệp tin ===
 
@@ -166,7 +166,7 @@ và những người sử dụng có thể cập nhật dữ liệu của họ b
 
 Những người sử dụng sẽ không bao giờ thấy được dữ liệu cuối cùng của bạn mà bạn không muốn họ thấy.
 
-=== Tôi Đã Làm Gì? ===
+=== Tôi Đã Làm Được Gì? ===
 
 Tìm tất cả các thay đổi kề từ lần bạn commit lần cuối bằng lệnh:
 
@@ -197,7 +197,7 @@ Coi A, B, C, D là 4 lần commit thành công, nơi mà B giống A ngoại tr�
 
    $ git diff B A | git apply
 
-  2. Kể từ lúc chúng ta ghi lại các tệp tin tại A, chúng ta có thể lấy lại:
+  2. Kể từ sau khi chúng ta ghi lại các tệp tin tại A trở đi, chúng ta có thể lấy lại:
 
    $ git checkout A foo.c bar.h
 
