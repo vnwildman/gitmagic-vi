@@ -58,7 +58,7 @@ Cách khác, chạy:
 
 Do vậy cứ commit thoải mái và thường xuyên bởi vì bạn có thể dọn dẹp cho gọn gàng sau này bằng lệnh rebase.
 
-=== Các Thay Đổi Riêng Xếp Sau ===
+=== Thay Đổi Riêng Sắp Xếp Sau ===
 
 Bạn đang làm việc trên một dự án đang hoạt động. Bạn đã tạo ra một số lần commit tại máy tính của mình, và
 sau đó bạn đồng bộ hóa với cây chính thức bằng cách hòa trộn. Chu kỳ này tự lặp chính nó một số lần trước khi bạn thực sự push tới cây trên máy chủ trung tâm.
